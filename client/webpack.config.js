@@ -29,12 +29,13 @@ module.exports = () => {
         description: 'Text Editor',
         theme_color: '#31a9e1',
         background_color: '#272822',
-        start_url: './',
-        publicPath: './',
+        start_url: '/index.html',
+        publicPath: '/',
         icons: [
           {
             src: path.resolve('src/images/logo.png'),
-            size: '500x500'
+            sizes: [96, 128, 192, 256, 384, 512],
+            destination: path.join('assets', 'icons'),
           },
         ],
       }),

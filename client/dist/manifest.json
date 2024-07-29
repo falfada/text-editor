@@ -1,0 +1,17 @@
+{
+  "icons": [
+    {
+      "src": "./icon_500x500.png",
+      "sizes": "500x500",
+      "type": "image/png"
+    }
+  ],
+  "name": "Just Another Text Editor",
+  "short_name": "JATE",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "./",
+  "description": "Text Editor",
+  "theme_color": "#31a9e1",
+  "background_color": "#272822"
+}
